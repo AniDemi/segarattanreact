@@ -10,11 +10,11 @@ class Header extends React.Component {
         </div>
         <div className="menu" id="desktopmenu">
           <ul>
-            <li><NavLink to="/" exact activeClassName="active" >Hem</NavLink></li>
-            <li><NavLink to="/sortiment" activeClassName="active">Sortiment</NavLink></li>
-            <li><NavLink to="/omoss" activeClassName="active">Om oss</NavLink></li>
-            <li><NavLink to="/leverantor" activeClassName="active">För Leverantörer</NavLink></li>
-            <li><NavLink to="/hitta" activeClassName="active">Hitta till oss/Kontakta oss</NavLink></li>
+            <li><NavLink to="segarattanreact/" exact activeClassName="active" >Hem</NavLink></li>
+            <li><NavLink to="segarattanreact/sortiment" activeClassName="active">Sortiment</NavLink></li>
+            <li><NavLink to="segarattanreact/omoss" activeClassName="active">Om oss</NavLink></li>
+            <li><NavLink to="segarattanreact/leverantor" activeClassName="active">För Leverantörer</NavLink></li>
+            <li><NavLink to="segarattanreact/hitta" activeClassName="active">Hitta till oss/Kontakta oss</NavLink></li>
           </ul>
         </div>
        
@@ -25,11 +25,11 @@ class Header extends React.Component {
 
 
             <ul id="slidelist">
-              <li><NavLink to="/" activeClassName="active">Hem</NavLink></li>
-              <li><NavLink to="/sortiment" activeClassName="active">Sortiment</NavLink></li>
-              <li><NavLink to="/omoss" activeClassName="active">Om oss</NavLink></li>
-              <li><NavLink to="/leverantor" activeClassName="active">För Leverantörer</NavLink></li>
-              <li><NavLink to="/hitta" activeClassName="active">Hitta till oss/Kontakta oss</NavLink></li>
+              <li><NavLink to="segarattanreact/" activeClassName="active">Hem</NavLink></li>
+              <li><NavLink to="segarattanreact/sortiment" activeClassName="active">Sortiment</NavLink></li>
+              <li><NavLink to="segarattanreact/omoss" activeClassName="active">Om oss</NavLink></li>
+              <li><NavLink to="segarattanreact/leverantor" activeClassName="active">För Leverantörer</NavLink></li>
+              <li><NavLink to="segarattanreact/hitta" activeClassName="active">Hitta till oss/Kontakta oss</NavLink></li>
             </ul>
           </div>
         </div>

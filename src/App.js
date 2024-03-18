@@ -17,11 +17,11 @@ function App() {
     <Router>
       <Header/>
       <Routes>
-        <Route exact path ="/" element={<Home/>}/>
-        <Route exact path ="/sortiment" element={<Sortiment/>}/>
-        <Route exact path ="/omoss" element={<Omoss/>}/>
-        <Route exact path ="/leverantor" element={<Leverantor/>}/>
-        <Route exact path ="/hitta" element={<Hitta/>}/>
+        <Route exact path ="segarattanreact/" element={<Home/>}/>
+        <Route exact path ="segarattanreact/sortiment" element={<Sortiment/>}/>
+        <Route exact path ="segarattanreact/omoss" element={<Omoss/>}/>
+        <Route exact path ="segarattanreact/leverantor" element={<Leverantor/>}/>
+        <Route exact path ="segarattanreact/hitta" element={<Hitta/>}/>
       </Routes>
     </Router>
   );
